@@ -41,7 +41,7 @@ venv\Scripts\activate # Windows
 pip install -r requirements.txt
 
 
-### 4. Setup Environment Variables (.env)
+### 4. Setup Environment Variables (env)
 
 HOST=localhost
 PORT=3306
