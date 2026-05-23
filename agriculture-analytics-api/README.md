@@ -101,10 +101,10 @@ agriculture-analytics-api/
 │   │
 │   ├── utils/
 │   │   ├── filters.py
-│   │   ├── validators/
-│   │       ├── crops_validator.py
-│   │       ├── farms_validator.py
-│   │       ├── common_validator.py
+│   │── validators/
+│   │   ├── crops_validator.py
+│   │   ├── farms_validator.py
+│   │   ├── common_validator.py
 │
 │── main.py
 │── requirements.txt
