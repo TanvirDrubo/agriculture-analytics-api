@@ -75,9 +75,9 @@ docker run -p 8000:8000 agri-api
 
 
 
+```bash
 agriculture-analytics-api/
 │── app/
-│
 │   ├── api/
 │   │   ├── crops.py
 │   │   ├── farms.py
@@ -89,30 +89,29 @@ agriculture-analytics-api/
 │   │
 │   ├── data/
 │   │   ├── data_loader.py
-│
+│   │
 │   ├── repositories/
 │   │   ├── crops_repo.py
 │   │   ├── farms_repo.py
-│
+│   │
 │   ├── services/
 │   │   ├── crops_service.py
 │   │   ├── farms_service.py
 │   │   ├── markets_service.py
-│
+│   │
 │   ├── utils/
 │   │   ├── filters.py
+│   │   ├── validators/
+│   │       ├── crops_validator.py
+│   │       ├── farms_validator.py
+│   │       ├── common_validator.py
 │
-│   ├── validators/
-│   │   ├── crops_validator.py
-│   │   ├── farms_validator.py
-        ├── common_validator.py
-│
-│   ├── main.py
-│
+│── main.py
 │── requirements.txt
 │── README.md
-|── README_Docker.md
+│── README_Docker.md
 │── Dockerfile
 │── .gitignore
 │── .dockerignore
-│── env.sample 
+│── env.sample
+```
