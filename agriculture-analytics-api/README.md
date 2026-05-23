@@ -69,3 +69,50 @@ http://127.0.0.1:8000/docs
 
 docker build -t agri-api .
 docker run -p 8000:8000 agri-api
+
+
+# project structure
+
+
+
+agriculture-analytics-api/
+│── app/
+│
+│   ├── api/
+│   │   ├── crops.py
+│   │   ├── farms.py
+│   │   ├── markets.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── db.py
+│   │
+│   ├── data/
+│   │   ├── data_loader.py
+│
+│   ├── repositories/
+│   │   ├── crops_repo.py
+│   │   ├── farms_repo.py
+│
+│   ├── services/
+│   │   ├── crops_service.py
+│   │   ├── farms_service.py
+│   │   ├── markets_service.py
+│
+│   ├── utils/
+│   │   ├── filters.py
+│
+│   ├── validators/
+│   │   ├── crops_validator.py
+│   │   ├── farms_validator.py
+        ├── common_validator.py
+│
+│   ├── main.py
+│
+│── requirements.txt
+│── README.md
+|── README_Docker.md
+│── Dockerfile
+│── .gitignore
+│── .dockerignore
+│── env.sample 
